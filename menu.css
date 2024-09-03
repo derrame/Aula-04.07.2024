@@ -1,0 +1,42 @@
+#menu ul li a{
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+}
+#menu ul li{
+    list-style-type:none;       
+    float: left;
+}
+#menu ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.bloco{
+    width: 50%;
+    height: auto;
+    display: block;
+    float:left;
+    background-color: red;
+
+}
+.bloco img{
+    width: 45%;
+}
+.bloco p{
+    width: 40%;
+    margin-left: 2%;
+    
+}
+.esq{
+    float: left;
+}
+.dir{
+    float: right;
+}
+.quebra{
+    clear: both;
+    margin-top: 30px;
+}
